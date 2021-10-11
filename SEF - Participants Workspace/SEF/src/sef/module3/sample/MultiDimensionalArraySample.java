@@ -23,20 +23,26 @@ public class MultiDimensionalArraySample {
 
 		// Yet, another way of declaring arrays
 		// Declaring, Constructing and Initializing a multi-dimensional array
-		int[][] anotherIntegerArray = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
+		int[][] anotherIntegerArray = { { 1, 2, 3, 4, 5 }, { 6,7, 8, 9, 10 }, { 11, 12, 13, 14, 15 }, {16, 17, 18, 19, 20},
+				{21, 22, 23, 24, 25}};
 		String[][][] anotherStringArray = {
 				{ { "String 1", "String 2" }, { "String 2", "String 3" } },
 				{ { "String 2", "String 3" }, { "String 3", "String 4" } },
 				{ { "String 4", "String 5" }, { "String 5", "String 6" } } };
 
 		/*
-		 * Multi-dimensional arrays can do all the things a single dimensional
+		 * Multi-dimensional arrays can do all the things a single dimensio nal
 		 * array can do it might be a little confusing at first, but you can
 		 * still say that its a one dimensional array with arrays as its members
 		 */
 
-		System.out.println("Access integer array location 1, 1: " + anotherIntegerArray[1][1]);
-		System.out.println("Access integer array location 0, 2: "
-				+ anotherIntegerArray[0][2]);
+		System.out.println("Access integer array location 2, 4: " + anotherIntegerArray[2][4]);
+		System.out.println("Access integer array location 3, 4: "
+				+ anotherIntegerArray[3][4]);
+
+	}
+	public void method(String myName) {
+		myName = "Not Arturs";
+		System.out.println("Hello " + myName);
 	}
 }
