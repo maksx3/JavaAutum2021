@@ -43,7 +43,7 @@ public class Employee extends Person {
     }
 
     public String getCompanyName(){
-        return getCompanyName();
+        return this.companyName;
     }
 
     public void setCompanyName(String companyName) {

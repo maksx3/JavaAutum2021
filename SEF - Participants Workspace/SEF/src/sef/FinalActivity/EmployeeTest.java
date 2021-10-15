@@ -33,7 +33,7 @@ public class EmployeeTest extends TestCase {
         employee.setJobTitle("job");
         employee.setCompanyName("company");
 
-        String shouldReturn = "My name is Maxim and I am 21 years old.\n I am working as job in company.";
+        String shouldReturn = "My name is Maxim and I am 21 years old. I am working as job in company.";
 
         assertEquals("Unexpected result of intro", shouldReturn, employee.introduce());
     }
