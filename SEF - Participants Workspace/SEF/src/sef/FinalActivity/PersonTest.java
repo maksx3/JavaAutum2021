@@ -2,7 +2,6 @@ package sef.FinalActivity;
 
 import junit.framework.TestCase;
 import org.junit.Test;
-import sef.finaltask.activity.FirstTask.Person;
 
 public class PersonTest extends TestCase {
 
